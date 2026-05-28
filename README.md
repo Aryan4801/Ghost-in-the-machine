@@ -97,6 +97,6 @@ python run_analysis.py -e report.json  # Export to JSON
 
 ---
 
-## ⚖️ Legal Disclaimer
+## Legal Disclaimer
 
 This tool is designed for **authorized security research and education only**. Deploy only on networks you own or have explicit permission to monitor. Always comply with local laws regarding network deception and monitoring.
