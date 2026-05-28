@@ -1,13 +1,25 @@
+# Dependencies
 node_modules/
 .venv/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Session logs (generated at runtime)
 data/sessions/*.log
 ssh_honeypot/logs/*.log
-*.log
-out.txt
-check_syntax.py
-fix_visual.py
-fix_visual_2.py
+
+# Environment
 .env
+
+# Generated / temp files
+out.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
 .agents/
+.vscode/

@@ -5,9 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js --dev",
-    "dashboard": "node server.js --dashboard-only",
-    "build:dashboard": "cd Ghost-in-the-machine-dashboard && npm run build && node ../copy_assets.js"
+    "dev": "node server.js --dev"
   },
   "keywords": ["honeypot", "cybersecurity", "deception", "threat-intelligence", "tarpit"],
   "author": "GhostOps",
@@ -15,8 +13,6 @@
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.7.4",
-    "uuid": "^9.0.0",
-    "chalk": "^4.1.2",
-    "moment": "^2.30.1"
+    "uuid": "^9.0.0"
   }
 }
