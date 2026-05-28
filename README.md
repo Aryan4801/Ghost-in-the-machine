@@ -1,4 +1,4 @@
-# 👻 Ghost in the Machine
+#  Ghost in the Machine
 
 ### Advanced Interactive Honeypot Deception System
 
@@ -15,7 +15,7 @@ Both surfaces pipe commands through a response engine (AI-based or static fallba
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - **Node.js** >= 18.x
@@ -77,7 +77,7 @@ python run_analysis.py -e report.json  # Export to JSON
 
 ---
 
-## 🎯 Deception Features
+##  Deception Features
 
 - **Breadcrumb System**: Fake DB credentials, AWS keys, crypto wallets, SSH keys planted throughout
 - **Exploit Traps**: DirtyCow, PwnKit, OverlayFS, Baron Samedit — all "almost work"
@@ -86,7 +86,7 @@ python run_analysis.py -e report.json  # Export to JSON
 - **Credential Harvesting**: sudo/su/passwd prompts capture attacker passwords
 - **Docker/K8s Traps**: Fake container escape paths that lead nowhere
 
-## 📊 Threat Intelligence
+##  Threat Intelligence
 
 - **MITRE ATT&CK Mapping**: Automatic technique fingerprinting (T1059, T1082, T1003, etc.)
 - **Sentiment Analysis**: VADER with custom cybersecurity lexicon
